@@ -1,0 +1,3 @@
+# Unreachable Code Bug in Julia
+
+This repository demonstrates a common, yet subtle, error in Julia: unreachable code. The `my_function` in `bug.jl` includes a `return` statement that can never be reached.  This is a good example of a potential issue that could lead to unexpected behavior or confusion if the code were to be extended or modified later. The solution is straightforward, and is shown in `bugSolution.jl`.
